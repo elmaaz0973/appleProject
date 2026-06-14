@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacBook — Apple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="image/logo.png" alt="Apple">
+    </div>
+    <ul class="menu">
+      <li><a href="#">Mac</a></li>
+      <li><a href="#">iPhone</a></li>
+      <li><a href="#">iPad</a></li>
+      <li><a href="#">Watch</a></li>
+      <li><a href="#" class="nav-cta">Buy Now</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+
+  <div class="content">
+    <span class="eyebrow">New — M4 Chip</span>
+    <h1>MacBook</h1>
+    <p class="tagline">Impossibly thin. Insanely powerful.</p>
+    <p>
+      The MacBook redefines what a laptop can be. Built around the all-new M4 chip,
+      it delivers extraordinary performance in an ultra-thin aluminum design — available in
+      ten stunning finishes.
+    </p>
+
+    <div class="cta-row">
+      <a href="#" class="btn btn-primary">Shop MacBook</a>
+      <a href="#" class="btn btn-secondary">Learn more →</a>
+    </div>
+
+    <p class="gallery-label">Choose your colour</p>
+    <div class="gallery">
+      <img src="image/0.png" onclick="changeImage(this)" class="active" title="Silver">
+      <img src="image/1.png" onclick="changeImage(this)" title="Gold">
+      <img src="image/2.png" onclick="changeImage(this)" title="Space Black">
+      <img src="image/3.png" onclick="changeImage(this)" title="Pink">
+      <img src="image/4.png" onclick="changeImage(this)" title="Sky Blue">
+      <img src="image/5.png" onclick="changeImage(this)" title="Red">
+      <img src="image/6.png" onclick="changeImage(this)" title="Orange">
+      <img src="image/7.png" onclick="changeImage(this)" title="Purple">
+      <img src="image/8.png" onclick="changeImage(this)" title="Mint">
+      <img src="image/9.png" onclick="changeImage(this)" title="Forest Green">
+    </div>
+  </div>
+
+  <!-- Main Image -->
+  <div class="product-image">
+    <div class="glow-ring" id="glowRing"></div>
+    <img src="image/0.png" id="mainImage" alt="MacBook">
+  </div>
+
+</section>
+
+<!-- Specs Strip -->
+<div class="specs-strip">
+  <div class="specs-inner">
+    <div class="spec-item">
+      <div class="spec-value">M4</div>
+      <div class="spec-label">Apple Silicon</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-value">18 hr</div>
+      <div class="spec-label">Battery life</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-value">13.6″</div>
+      <div class="spec-label">Liquid Retina</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-value">16 GB</div>
+      <div class="spec-label">Unified memory</div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  © 2026 Apple Inc. &nbsp;·&nbsp; Designed by Ahmed Elmoaaz
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
